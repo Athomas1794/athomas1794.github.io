@@ -8,42 +8,59 @@
   <body>
     <header>
     <h1>Alec Thomas</h1>
-    <ul>
-      <li>Alecthomas1794@gmail.com | </li>
-      <li>630-486-2210 | </li>
-      <li>Chicago, IL</li>
-    </ul>
-    </header>
-    <section class='skills'>
-    <h2>Skills</h2>
-      <h3>Programming Languages:</h3>
+    <nav>
       <ul>
-        <li>C/C++ | </li>
-        <li>Python | </li>
-        <li>Java | </li>
-        <li>SQL | </li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h2>Value Whats Important</h2>
+    <p>Alec is a software engineer by trade in the Chicago suburbs, with an emphasis on whats important, 
+      and always curious about how it works. Below you'll find a wide range of professional
+      experiences and skills in his toolbox.
+    </p>
+    </header>
+    <section id='skills' class='skill-blocks'>
+    <h2>Skills</h2>
+    <div class='block'>
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
         <li>HTML5/CSS3</li>
       </ul>
-      <h3>Software Development:</h3>
+    </div>
+    <div class='block'>
+      <h3>Software Development</h3>
       <ul>
-        <li>Agile | </li>
-        <li>Windows/Linux | </li>
-        <li>Embedded | </li>
+        <li>Agile</li>
+        <li>Windows</li>
+        <li>Linux</li>
+        <li>Embedded</li>
         <li>Web</li>
       </ul>
-      <h3>DevOps Tools:</h3>
+    </div>
+    <div class='block'>
+      <h3>DevOps Tools</h3>
       <ul>
-        <li>Git | </li>
-        <li>Github | </li>
-        <li>Jira/Rally | </li>
-        <li>Jenkins | </li>
+        <li>Git</li>
+        <li>Github</li>
+        <li>Jira/Rally</li>
+        <li>Jenkins</li>
         <li>Robot</li>
       </ul>
+    </div>
     </section>
-    <section class='experience'>
+    <section id='work' class='experience'>
     <h2>Professional Experience</h2>
+      <div class='experience-blocks'>
       <h3>Northrop Grumman - Rolling Meadows, IL</h3>
-      <h4>Software Engineer (Feb 2020 - Present)</h4>
+      <h4>Software Engineer (Feb 2020 - Aug 2021)</h4>
       <ul>
         <li>Developed Embedded Software for an ESM system in C/C++ running on an Embedded Linux Hardware Platform</li>
         <li>Simulated Embedded Hardware for Software Development supporting customers</li>
@@ -65,9 +82,12 @@
         <li>Resolved website change requests from the university and division faculty</li>
         <li>Took on a key role in the migration project deploying 1000+ pages (Drupal to WordPress)</li>
       </ul>
+    </div>
     </section>
-    <section class='projects'>
+    <section id='projects' class='projects'>
     <h2>Projects</h2>
+    <div class='project-blocks'>
+    <div class='block'>
       <h3>Client-Server Game (Speed Typer) - Java/JavaFX</h3>
       <ul>
         <li>Developed a scalable multiplayer networked application with a functioning GUI</li>
@@ -75,23 +95,48 @@
         <li>Integrated the frontend GUI with the backend server code</li>
         <li>Created a test suite for unit and regression testing</li>
       </ul>
+    </div>
+    <div class='block'>
+      <h3>Cryptocurrency Blockchain - Python</h3>
+      <ul>
+        <li>Reverse engineered Bitcoin to create a Blockchain network in Python</li>
+        <li>Developed the logic for transactions between users within a blockchain network</li>
+        <li>Educated future team members on blockchain fundamentals and progress</li>
+      </ul>
+  </div>
+  <div class='block'>
+      <h3>Netflix Review Analyzer - Modern C++</h3>
+      <ul>
+        <li>Analyzed Netflix reviews and output movie rating statistics</li>
+        <li>Leveraged Hash Maps and Vectors for efficient storage and lookup</li>
+        <li>Parsed over 1,000,000 lines of movie and review data via .CSV files</li>
+      </ul>
+    </div>
+    <div class='block'>
       <h3>Egg Timer App - Java</h3>
       <ul>
+        <li>Researched Android development to produce a timer app</li>
         <li>Implemented several core standard library objects to produce a timer app</li>
       </ul>
+    </div>
+    <div class='block'>
       <h3>Reliable Transport Protocol - C</h3>
       <ul>
         <li>Constructed a file transfer application with a sender/receiver pair that supports any filetype</li>
         <li>Implemented my own protocol based on TCP using UDP packets to reliably send data</li>
       </ul>
+    </div>
+    <div class='block'>
       <h3>Bingo Game - C</h3>
       <ul>
         <li>Generates unique standard rule bingo cards using a 4D array</li>
         <li>Options to play bingo, view cards, and generate histogram for all card numbers</li>
         <li>Up to 5 players with 10 cards each</li>
       </ul>
+    </div>
+    </div>
     </section>
-    <section class='education'>
+    <section id='education' class='education'>
     <h2>Education</h2>
       <h3>University of Illinois at Chicago - Chicago, IL</h3>
       <h4>Bachelor of Science in Computer Science (Aug 2017 - Dec 2019)</h4>
@@ -105,6 +150,15 @@
         <li>GPA: 3.8</li>
         <li>Coursework: General education, Engineering prerequisites (Calc/Physics sequence)</li>
         <li>High School Credit: A+ Computer Repair, AP Computer Science (Python, Java)</li>
+      </ul>
+    </section>
+    <section id='contact' class='contact'>
+      <h2>
+        Get in Touch!
+      </h2>
+      <ul>
+        <li>Email (preferred): Alecthomas1794@gmail.com</li>
+        <li>Mobile (leave a message): 630-486-2210</li>
       </ul>
     </section>
   </body>
