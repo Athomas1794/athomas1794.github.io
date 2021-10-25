@@ -24,7 +24,9 @@ h1 {
   display: inline;
 }
 
-.block {
+.skill-blocks .block {
+  width: 200px;
+  height: 250px;
   display: inline-block;
   vertical-align: top;
   margin: 5px 10px;
@@ -32,16 +34,6 @@ h1 {
   border: 1px solid black;
   border-radius: 5%;
   line-height: 1.5em;
-}
-
-.project-blocks .block {
-  width: 350px;
-  height: 330px;
-}
-
-.skill-blocks .block {
-  width: 200px;
-  height: 250px;
 }
 
 .skill-blocks .block h3 {
