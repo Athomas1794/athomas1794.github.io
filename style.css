@@ -3,12 +3,14 @@
 }
 
 body {
-  padding-left: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   float: right;
   display: inline;
+  margin-top: 16px;
 }
 
 nav ul li {
@@ -17,31 +19,108 @@ nav ul li {
 }
 
 header {
-  margin-bottom: 25px;;
+  background-color: #20574D;
+  color: #BDEFE6;
+  padding: 10px 10px;
+  padding-bottom: 25px;
+  width: 100%;
+  background-blend-mode: color;
+}
+
+header a {
+  background-color: #0FD6B2;
+  color: #20574D;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+header h2 {
+  font-style: italic;
+}
+
+header p {
+  font-size: 25px;
+  line-height: 1.2em;
+  width: 30em;
 }
 
 h1 {
   display: inline;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+section {
+  margin: 0;
+}
+
+.skill-blocks {
+  color: #20574d;
+  background-color: #BDEFE6;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
 .skill-blocks .block {
-  width: 200px;
-  height: 250px;
+  /*width: 200px;
+  height: 250px;*/
   display: inline-block;
   vertical-align: top;
-  margin: 5px 10px;
   padding: 5px 10px;
-  border: 1px solid black;
-  border-radius: 5%;
+  /*border: 1px solid black;
+  border-radius: 5%;*/
   line-height: 1.5em;
+}
+
+.skill-blocks .block ul li {
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
 }
 
 .skill-blocks .block h3 {
   text-align: center;
 }
 
+.experience {
+  color: #20574d;
+  background-color: #BDEFE6;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
 .experience-blocks {
   padding-left: 20px;
+}
+
+.projects {
+  color: #20574d;
+  background-color: #BDEFE6;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.education {
+  color: #20574d;
+  background-color: #BDEFE6;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.contact {
+  color: #20574d;
+  background-color: #BDEFE6;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+ul {
+  margin: 0;
 }
 
 li {
