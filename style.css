@@ -57,24 +57,25 @@ h2 {
   margin: 0;
   padding-top: 30px;
   font-size: 50px;
-  text-align: center;
 }
 
 h3 {
   font-size: 25px;
   font-weight: 500;
   padding-top: 20px;
-  text-align: center;
 }
 
 h4 {
   margin-top: 0;
-  text-align: center;
+  font-size: 20px;
 }
 
 h2,
 h3,
 h4 {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -85,6 +86,7 @@ h4 {
 }
 
 .skill-blocks {
+  text-align: center;
   color: #20574d;
   background-color: #FFFFFF;
   padding: 10px 10px;
@@ -117,10 +119,6 @@ h4 {
   padding: 5px 10px;
 }
 
-.experience-blocks {
-  padding: 0 20px;
-}
-
 .projects {
   color: #20574d;
   background-color: #FFFFFF;
@@ -151,10 +149,13 @@ h4 {
 
 ul {
   margin: 0;
-  text-align: center;
+  padding-left: 0;
+  display: block;
+  justify-content: center;
 }
 
 li {
+  margin: 0;
   padding: 5px 10px;
   list-style: none;
   font-size: 20px;
