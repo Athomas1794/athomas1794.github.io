@@ -1,5 +1,8 @@
 # athomas1794.github.io
 
-HTML/CSS formatted resume (WIP)
+Digital resume
+
+- HTML5
+- CSS3
 
 Link: [https://athomas1794.github.io/](https://athomas1794.github.io/)
